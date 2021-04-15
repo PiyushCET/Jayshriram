@@ -49,7 +49,7 @@ return ((b/((a-c)*(a-e)*(a-g)))*((x-c)*(x-e)*(x-g)))
     }
     
     public void paint(Graphics g){
-//1930
+
 for(int i=0;i<1930;i++){
 for(int j=0;j<1000;j++){
     int ci=350,cj=-100;
@@ -93,12 +93,6 @@ for(int j=0;j<1000;j++){
       ||(((2*(x+ci)-(cj-y)>1463 &&2*(x+ci)-(cj-y)<=1467)||(2*(x+ci)-(cj-y)>1471 &&2*(x+ci)-(cj-y)<=1475)||(2*(x+ci)-(cj-y)>1455 &&2*(x+ci)-(cj-y)<=1459)
          ||(2*(x+ci)-(cj-y)>1479 &&2*(x+ci)-(cj-y)<=1483)||(2*(x+ci)-(cj-y)>1487 &&2*(x+ci)-(cj-y)<=1491)||(2*(x+ci)-(cj-y)>1495 &&2*(x+ci)-(cj-y)<=1499))
          &&(cj-y)<310&&(cj-y)>260)
-   
-       /*  ||(p(2*x-1486)/p(610)+p(2*y+1885)/p(373)<=2&&p(2*x-1486)/p(590)+p(2*y+1885)/p(323)>=2&&2*x<=1486&&2*y>=-1825)
-         || (a(x,,,,,,,,)>y&&a(x,,,,,,,,)<y&&2*x>&&2*x<=)
-         || (a(y,,,,,,,,)<x&&a(y,,,,,,,,)>x&&-2*y>&&-2*y<=)
-       */
-        
          )&&x<800){ 
      if((i+j)%(2*n)<n){
   Color E=new Color((int) (184+(((i+j)%n)*0.19)), (int) (134+(((i+j)%n)*0.33)), (int) (11+(((i+j)%n)*0.57)));
@@ -115,10 +109,8 @@ g.drawLine(i, j, i, j);}}
    g.setColor(A);      
 g.drawLine(i, j, i, j);
  
+ 
  }
-  Color A=new Color(255,255,0);
-   g.setColor(A);     
-//if(x%10==0||y%10==0){ if(x%100==0||y%100==0){Color E=new Color(0,0,250);  g.setColor(E);      g.drawLine(i, j, i, j);  }else{Color E=new Color(250,250,250);  g.setColor(E);      g.drawLine(i, j, i, j);}}
 }}
     
   
@@ -151,3 +143,4 @@ f.setSize(10000,10000);
 f.setVisible(true);
 }
 }
+
